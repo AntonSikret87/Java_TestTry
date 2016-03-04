@@ -74,7 +74,7 @@ public class ApplicationManager {
         wd.findElement(By.linkText("home page")).click();
     }
 
-    protected void submitContactCreation() {
+    public void submitContactCreation() {
         wd.findElement(By.name("submit")).click();
     }
 
