@@ -24,4 +24,29 @@ public class ContactHelper extends HelperBase {
         type(By.name("nickname"),contactData.getNickname());
         type(By.name("company"),contactData.getCompany());
     }
+
+    public void goToHomePage() {
+        click(By.linkText("home"));
+    }
+
+    public void modifiContact() {
+        click(By.cssSelector("img[alt=\"Edit\"]"));
+    }
+
+    public void initContactModify() {
+        click(By.name("update"));
+    }
+
+    public void selectContact() {
+        click(By.name("selected[]"));
+
+    }
+
+    public void alertAccept() {
+        wd.switchTo().alert().accept();
+    }
+
+    public void deletionContact() {
+        click(By.xpath("//input[@value='Delete']"));
+    }
 }
