@@ -39,6 +39,8 @@ public class ContactHelper extends HelperBase {
 
 
 
+
+
     public void modifiContact() {
         click(By.cssSelector("img[alt=\"Edit\"]"));
     }
@@ -51,6 +53,9 @@ public class ContactHelper extends HelperBase {
         click(By.name("selected[]"));
 
     }
+    public void returnToHomePage() {
+        wd.findElement(By.linkText("home page")).click();
+    }
 
     public void alertAccept() {
         wd.switchTo().alert().accept();
@@ -58,5 +63,24 @@ public class ContactHelper extends HelperBase {
 
     public void deletionContact() {
         click(By.xpath("//input[@value='Delete']"));
+    }
+
+    public void createContact(ContactData contact, boolean b) {
+        goToAddNewPage();
+        fillContactsFields(contact, b);
+        submitContactCreation();
+        returnToHomePage();
+    }
+
+    public boolean isThereAContact() {
+        return isElementPresent(By.name("submit"));
+
+    }
+    public void goToAddNewPage() {
+        if(isElementPresent(By.tagName("h1"))
+                && wd.findElement(By.tagName("h1")).getText().equals("Edit / add address book entry")){
+            return;
+        }
+        click(By.linkText("add new"));
     }
 }
