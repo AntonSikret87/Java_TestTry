@@ -15,19 +15,19 @@ public class GroupModificationTests extends TestBase{
 
     @BeforeMethod
     public  void ensurePreconditions(){
-        app.getNavigationHelper().goToGroupPage();
-        if(! app.getGroupsHelper().isThereAGroup()){
-            app.getGroupsHelper().createAGroup(new GroupData("test1", "test2", "test3"));
+        app.goTo().groupPage();
+        if(app.group().groupList().size() == 0){
+            app.group().create(new GroupData("test1", "test2", "test3"));
         }
     }
 
     @Test
     public void testGroupModofocation(){
-        List<GroupData> before = app.getGroupsHelper().getGroupList();
+        List<GroupData> before = app.group().groupList();
         int index = before.size() -1;
         GroupData group = new GroupData(before.get(index).getId(), "test1", "test2", "test3");
-        app.getGroupsHelper().modifyGroup(index, group);
-        List<GroupData> after = app.getGroupsHelper().getGroupList();
+        app.group().modify(index, group);
+        List<GroupData> after = app.group().groupList();
         Assert.assertEquals(after.size(),before.size() );
 
         before.remove(index);
