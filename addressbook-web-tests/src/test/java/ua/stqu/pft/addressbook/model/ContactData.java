@@ -2,37 +2,62 @@ package ua.stqu.pft.addressbook.model;
 
 public class ContactData {
 
-    private int id;
-    private final String firstname;
-    private final String middlename;
-    private final String lastname;
-    private final String nickname;
-    private final String company;
+    private int id = Integer.MAX_VALUE;;
+    private String firstname;
+    private String middlename;
+    private String lastname;
+    private String nickname;
+    private String company;
+//
+//
+//    public ContactData(int id, String firstname, String middlename, String lastname, String nickname, String company) {
+//        this.id = id;
+//        this.firstname = firstname;
+//        this.middlename = middlename;
+//        this.lastname = lastname;
+//        this.nickname = nickname;
+//        this.company = company;
+//
+//    }
+//
+//    public ContactData(String firstname, String middlename, String lastname, String nickname, String company) {
+//        this.id = Integer.MAX_VALUE;
+//        this.firstname = firstname;
+//        this.middlename = middlename;
+//        this.lastname = lastname;
+//        this.nickname = nickname;
+//        this.company = company;
+//
+//    }
 
-
-    public ContactData(int id, String firstname, String middlename, String lastname, String nickname, String company) {
-        this.id = id;
-        this.firstname = firstname;
-        this.middlename = middlename;
-        this.lastname = lastname;
-        this.nickname = nickname;
+    public ContactData withCompany(String company) {
         this.company = company;
-
+        return this;
     }
 
-    public ContactData(String firstname, String middlename, String lastname, String nickname, String company) {
-        this.id = Integer.MAX_VALUE;
+    public ContactData withFirstname(String firstname) {
         this.firstname = firstname;
-        this.middlename = middlename;
-        this.lastname = lastname;
-        this.nickname = nickname;
-        this.company = company;
-
+        return this;
     }
 
+    public ContactData withMiddlename(String middlename) {
+        this.middlename = middlename;
+        return this;
+    }
 
-    public void setId(int id) {
+    public ContactData withLastname(String lastname) {
+        this.lastname = lastname;
+        return this;
+    }
+
+    public ContactData withNickname(String nickname) {
+        this.nickname = nickname;
+        return this;
+    }
+
+    public ContactData withId(int id) {
         this.id = id;
+        return this;
     }
 
 
