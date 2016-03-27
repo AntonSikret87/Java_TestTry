@@ -1,5 +1,6 @@
 package ua.stqu.pft.addressbook.tests;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ua.stqu.pft.addressbook.model.ContactData;
 
@@ -14,16 +15,16 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class ContactPhoneTests extends TestBase {
 
-//    @BeforeMethod
-//    public  void ensurePreconditions() {
-//        app.goTo().homePage();
-//        if(app.contact().all().size() == 0){
-//            app.contact().create(new ContactData()
-//                    .withFirstname("Anton").withMiddlename("Olegovich").withLastname("Karabeinikov")
-//                    .withNickname("Sikret87").withCompany("Accesssoftek"));
-////                    .withHomePhome("111").withMobilePhone("222").withWorkPhone("333"));
-//        }
-//    }
+    @BeforeMethod
+    public  void ensurePreconditions() {
+        app.goTo().homePage();
+        if(app.contact().all().size() == 0){
+            app.contact().create(new ContactData()
+                    .withFirstname("Anton").withMiddlename("Olegovich").withLastname("Karabeinikov")
+                    .withNickname("Sikret87").withCompany("Accesssoftek"));
+//                    .withHomePhome("111").withMobilePhone("222").withWorkPhone("333"));
+        }
+    }
 
 
     @Test
@@ -36,7 +37,7 @@ public class ContactPhoneTests extends TestBase {
     }
 
     private String mergePhones(ContactData contact) {
-        return Arrays.asList(contact.getHomePhone(), contact.getMiddlename(), contact.getWorkPhone())
+        return Arrays.asList(contact.getHomePhone(), contact.getMobilePhone(), contact.getWorkPhone())
                 .stream().filter((s) -> ! s.equals(""))
                 .map(ContactPhoneTests::cleaned)
                 .collect(Collectors.joining("\n"));
