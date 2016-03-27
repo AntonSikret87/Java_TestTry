@@ -28,7 +28,6 @@ public class ContactModificationTests extends TestBase {
     public void testContactModification(){
         Contacts before = app.contact().all();
         ContactData modifyContcat =  before.iterator().next();
-        //int index = before.size() -1;
         ContactData contact = new ContactData().withId(modifyContcat.getId())
                 .withFirstname("Anton1").withMiddlename("Olegovich1").withLastname("Karabeinikov1")
                 .withNickname("Sikret871").withCompany("Accesssoftek1");
@@ -36,12 +35,6 @@ public class ContactModificationTests extends TestBase {
         Contacts after = app.contact().all();
         Assert.assertEquals(after.size(), before.size());
 
-//        before.remove(modifyContcat);
-//        before.add(contact);
-//        Comparator<? super ContactData> byId = (c1, c2) -> Integer.compare(c1.getId(),c2.getId());
-//        before.sort(byId);
-//        after.sort(byId);
-//        Assert.assertEquals(before,after);
         assertThat(after, equalTo(before.without(modifyContcat).withAdded(contact)));
     }
 

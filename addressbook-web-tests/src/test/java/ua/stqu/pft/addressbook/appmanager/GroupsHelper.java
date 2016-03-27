@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 import ua.stqu.pft.addressbook.model.GroupData;
 import ua.stqu.pft.addressbook.model.Groups;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by sikretSSD on 04.03.2016.
@@ -41,9 +39,6 @@ public class GroupsHelper  extends HelperBase {
         click(By.name("delete"));
     }
 
-//    public void selectGroup(int index) {
-//        wd.findElements(By.name("selected[]")).get(index).click();
-//    }
     public void selectGroupById(int id) {
         wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
     }
@@ -85,16 +80,6 @@ public class GroupsHelper  extends HelperBase {
         return wd.findElements(By.name("selected[]")).size();
     }
 
-//    public List<GroupData> groupList() {
-//        List<GroupData> groups = new ArrayList<GroupData>();
-//        List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
-//        for(WebElement element : elements){
-//            String name = element.getText();
-//            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-//            groups.add(new GroupData().withId(id).withName(name));
-//        }
-//        return groups;
-//    }
     public Groups all() {
         Groups groups = new Groups();
         List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
