@@ -56,11 +56,16 @@ public class ContactHelper extends HelperBase {
     public void deletionContact() {
         click(By.xpath("//input[@value='Delete']"));
     }
+    public void deleteSelectedContacts() {
+        click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
+        wd.switchTo().alert().accept();
+    }
 
     public void create(ContactData contact) {
         initContactCreation();
         fillContactsFields(contact);
         submitContactCreation();
+        contactCache = null;
         returnToHomePage();
     }
 
@@ -69,13 +74,14 @@ public class ContactHelper extends HelperBase {
         initContactModification(before.size()+1);
         fillContactsFields(contact);
         initContactModify();
+        contactCache = null;
         returnToHomePage();
     }
 
     public void delete(ContactData contact) {
         selectContactById(contact.getId());
-        deletionContact();
-        alertAccept();
+        deleteSelectedContacts();
+        contactCache = null;
     }
 
     public boolean isThereAContact() {
@@ -87,16 +93,21 @@ public class ContactHelper extends HelperBase {
         return wd.findElements(By.name("selected[]")).size();
     }
 
-    public Contacts all() {
-        Contacts contacts =  new Contacts();
+    private Contacts contactCache = null;
+
+     public Contacts all() {
+         if(contactCache != null) {
+             return new Contacts(contactCache);
+         }
+         contactCache =  new Contacts();
         List<WebElement> rows = wd.findElements(By.name("entry"));
         for(WebElement row : rows){
             List<WebElement> cells = row.findElements(By.tagName("td"));
             String lastname = cells.get(2).getText();
             String firstname = cells.get(1).getText();
             int id = Integer.parseInt(row.findElement(By.tagName("input")).getAttribute("value"));
-            contacts.add(new ContactData().withId(id).withLastname(firstname).withFirstname(lastname));
+            contactCache.add(new ContactData().withId(id).withLastname(firstname).withFirstname(lastname));
         }
-        return contacts;
+        return new Contacts(contactCache);
     }
 }
