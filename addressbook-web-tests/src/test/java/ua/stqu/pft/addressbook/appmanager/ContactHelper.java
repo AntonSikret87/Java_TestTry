@@ -28,6 +28,7 @@ public class ContactHelper extends HelperBase {
         type(By.name("lastname"),contactData.getLastname());
         type(By.name("nickname"),contactData.getNickname());
         type(By.name("company"),contactData.getCompany());
+
     }
 
     public void initContactModification(int contacts_size) {
@@ -105,10 +106,9 @@ public class ContactHelper extends HelperBase {
             List<WebElement> cells = row.findElements(By.tagName("td"));
             String lastname = cells.get(2).getText();
             String firstname = cells.get(1).getText();
-            String[] phones = cells.get(5).getText().split("\n");
+            String allPhones = cells.get(5).getText();
             int id = Integer.parseInt(row.findElement(By.tagName("input")).getAttribute("value"));
-            contactCache.add(new ContactData().withId(id).withLastname(firstname).withFirstname(lastname).withHomePhome(phones[0])
-                    .withMobilePhone(phones[1]).withWorkPhone(phones[2]));
+            contactCache.add(new ContactData().withId(id).withLastname(firstname).withFirstname(lastname).withAllPhones(allPhones));
         }
         return new Contacts(contactCache);
     }
