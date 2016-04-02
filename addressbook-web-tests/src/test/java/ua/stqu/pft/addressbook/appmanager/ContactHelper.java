@@ -174,6 +174,7 @@ public class ContactHelper extends HelperBase {
                 withEmail(email1).withEmail2(email2).withEmail3(email3).withHomePhone(home).withMobilePhone(mobile).
                 withWorkPhone(work);
     }
+    //.withFio(fio)
 
     public ContactData infoFromEditForm(ContactData contact) {
         initContactModificationById(contact.getId());
@@ -200,7 +201,9 @@ public class ContactHelper extends HelperBase {
 
     public ContactData infoFromDetailsForm(ContactData contact) {
         initViewContactDetailsById(contact.getId());
-        String allData = wd.findElement(By.xpath("//div[@id='content']")).getText();
+        String allData = wd.findElement(By.xpath(".//*[@id='content']/form[2]")).getText();
+        //.//*[@id='content']/form[2]
+        ////div[@id='content']
         wd.navigate().back();
         return new ContactData().withId(contact.getId()).withAllData(allData);
     }
