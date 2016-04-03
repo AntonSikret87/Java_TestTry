@@ -31,12 +31,14 @@ public class HelperBase {
             }
         }
     }
+
     protected void attach(By locator, File file) {
         if (file != null) {
             wd.findElement(locator).sendKeys(file.getAbsolutePath());
 
         }
     }
+
     public boolean isAlertPresent() {
         try {
             wd.switchTo().alert();
@@ -47,10 +49,10 @@ public class HelperBase {
     }
 
     protected boolean isElementPresent(By locator) {
-        try{
+        try {
             wd.findElement(locator);
             return true;
-        }catch (NoSuchElementException ex){
+        } catch (NoSuchElementException ex) {
             return false;
         }
     }

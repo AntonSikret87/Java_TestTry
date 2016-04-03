@@ -15,9 +15,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class ContactModificationTests extends TestBase {
 
     @BeforeMethod
-    public  void ensurePreconditions() {
+    public void ensurePreconditions() {
         app.goTo().homePage();
-        if(app.contact().all().size() == 0){
+        if (app.contact().all().size() == 0) {
             app.contact().create(new ContactData().withId(0)
                     .withFirstname("Anton1").withMiddlename("Olegovich1").withLastname("Karabeinikov1")
                     .withNickname("Sikret871").withCompany("Accesssoftek1"));
@@ -25,9 +25,9 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testContactModification(){
+    public void testContactModification() {
         Contacts before = app.contact().all();
-        ContactData modifyContcat =  before.iterator().next();
+        ContactData modifyContcat = before.iterator().next();
         ContactData contact = new ContactData().withId(modifyContcat.getId())
                 .withFirstname("Anton1").withMiddlename("Olegovich1").withLastname("Karabeinikov1")
                 .withNickname("Sikret871").withCompany("Accesssoftek1");

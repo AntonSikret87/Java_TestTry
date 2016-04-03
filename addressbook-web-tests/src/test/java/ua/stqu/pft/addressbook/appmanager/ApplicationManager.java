@@ -14,22 +14,22 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     WebDriver wd;
 
-    private SessionHelper  sessionHelper;
+    private SessionHelper sessionHelper;
     private NavigationHelper navigationHelper;
     private GroupsHelper groupsHelper;
     private ContactHelper contactHelper;
     private String browser;
 
-      public ApplicationManager(String browser) {
+    public ApplicationManager(String browser) {
         this.browser = browser;
     }
 
     public void init() {
-        if(browser.equals(BrowserType.FIREFOX)){
+        if (browser.equals(BrowserType.FIREFOX)) {
             wd = new FirefoxDriver();
-        }else  if(browser.equals(BrowserType.CHROME)){
+        } else if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
-        }else  if(browser.equals(BrowserType.IE)){
+        } else if (browser.equals(BrowserType.IE)) {
             wd = new InternetExplorerDriver();
         }
         wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
@@ -38,9 +38,8 @@ public class ApplicationManager {
         navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);
         contactHelper = new ContactHelper(wd);
-        sessionHelper.login("admin","secret");
+        sessionHelper.login("admin", "secret");
     }
-
 
 
     public void stop() {

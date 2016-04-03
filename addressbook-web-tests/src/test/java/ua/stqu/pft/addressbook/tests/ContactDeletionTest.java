@@ -12,12 +12,12 @@ import static org.testng.Assert.assertEquals;
 /**
  * Created by sikretSSD on 04.03.2016.
  */
-public class ContactDeletionTest extends TestBase{
+public class ContactDeletionTest extends TestBase {
 
     @BeforeMethod
-    public  void ensurePreconditions() {
+    public void ensurePreconditions() {
         app.goTo().homePage();
-        if(app.contact().all().size() == 0){
+        if (app.contact().all().size() == 0) {
             app.contact().create(new ContactData()
                     .withFirstname("Anton").withMiddlename("Olegovich").withLastname("Karabeinikov")
                     .withNickname("Sikret87").withCompany("Accesssoftek"));
@@ -25,9 +25,9 @@ public class ContactDeletionTest extends TestBase{
     }
 
     @Test
-    public void testDeletionContact(){
+    public void testDeletionContact() {
         Contacts before = app.contact().all();
-        ContactData deletedContact =  before.iterator().next();
+        ContactData deletedContact = before.iterator().next();
         app.contact().delete(deletedContact);
         app.goTo().homePage();
         assertEquals(app.contact().count(), before.size(), 1);

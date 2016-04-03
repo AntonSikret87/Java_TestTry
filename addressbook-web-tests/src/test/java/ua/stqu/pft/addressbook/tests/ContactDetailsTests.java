@@ -27,8 +27,8 @@ public class ContactDetailsTests extends TestBase {
     private String mergeData(ContactData contact) {
         return Arrays.asList(
                 contact.getFio(),
-               // contact.getFirstname(),contact.getLastname(),contact.getMiddlename(),
-                 contact.getNickname(), contact.getAddress(), contact.getHomePhone(), contact.getMobilePhone()
+                // contact.getFirstname(),contact.getLastname(),contact.getMiddlename(),
+                contact.getNickname(), contact.getAddress(), contact.getHomePhone(), contact.getMobilePhone()
                 , contact.getWorkPhone(), contact.getEmail(), contact.getEmail2(), contact.getEmail3())
                 .stream().filter((s) -> !s.equals("")) //фильтрация от пустых значений
                 //.map(ContactComparisonDataTest::fio) //очистка от лишних символов
@@ -36,6 +36,6 @@ public class ContactDetailsTests extends TestBase {
                 .collect(Collectors.joining("\n")); //склейка
     }
 
-    }
+}
 
 

@@ -147,7 +147,7 @@ public class ContactHelper extends HelperBase {
     }
 
 
-//    public ContactData infoFIOFromEditForm(ContactData contact) {
+    //    public ContactData infoFIOFromEditForm(ContactData contact) {
 //        initContactModificationById(contact.getId());
 //        String firstname = wd.findElement(By.name("firstname")).getAttribute("value");
 //        String middlename = wd.findElement(By.name("middlename")).getAttribute("value");
@@ -201,8 +201,8 @@ public class ContactHelper extends HelperBase {
         return new ContactData().withId(contact.getId())
                 .withFio(fio).withNickname(nickname)
                 .withAddress(address).
-                withEmail(email1).withEmail2(email2).withEmail3(email3).withHomePhone(home).withMobilePhone(mobile).
-                withWorkPhone(work);
+                        withEmail(email1).withEmail2(email2).withEmail3(email3).withHomePhone(home).withMobilePhone(mobile).
+                        withWorkPhone(work);
     }
 
     public ContactData infoFromEditForm(ContactData contact) {
@@ -221,9 +221,9 @@ public class ContactHelper extends HelperBase {
         wd.navigate().back();
         return new ContactData().withId(contact.getId()).withFirstname(firstname).withMiddlename(middlename)
                 .withLastname(lastname).
-                withNickname(nickname).withAddress(address).withEmail(email1)
+                        withNickname(nickname).withAddress(address).withEmail(email1)
                 .withEmail2(email2).withEmail3(email3).
-                withHomePhone(home).withMobilePhone(mobile).withWorkPhone(work);
+                        withHomePhone(home).withMobilePhone(mobile).withWorkPhone(work);
     }
 
 //    private void initContactModificationById(int id) {

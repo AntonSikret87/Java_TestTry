@@ -13,12 +13,12 @@ import static org.hamcrest.MatcherAssert.assertThat;
 /**
  * Created by sikretSSD on 30.03.2016.
  */
-public class ContactEmailsTests extends TestBase{
+public class ContactEmailsTests extends TestBase {
 
     @BeforeMethod
-    public  void ensurePreconditions() {
+    public void ensurePreconditions() {
         app.goTo().homePage();
-        if(app.contact().all().size() == 0){
+        if (app.contact().all().size() == 0) {
             app.contact().create(new ContactData()
                     .withFirstname("Anton").withMiddlename("Olegovich").withLastname("Karabeinikov")
                     .withNickname("Sikret87").withCompany("Accesssoftek"));
