@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
  * Created by sikretSSD on 02.04.2016.
  */
 public class ContactDetailsTests extends TestBase {
-
+// Work if contact created with FIO,adress,nickname,emails(3),phones(3)
 
     @Test
     public void testContactComparisonData() {
