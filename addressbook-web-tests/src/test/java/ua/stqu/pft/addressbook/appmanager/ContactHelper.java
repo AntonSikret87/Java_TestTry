@@ -147,6 +147,34 @@ public class ContactHelper extends HelperBase {
     }
 
 
+//    public ContactData infoFIOFromEditForm(ContactData contact) {
+//        initContactModificationById(contact.getId());
+//        String firstname = wd.findElement(By.name("firstname")).getAttribute("value");
+//        String middlename = wd.findElement(By.name("middlename")).getAttribute("value");
+//        String lastname = wd.findElement(By.name("lastname")).getAttribute("value");
+//        String fio = firstname.concat(" ").concat(middlename).concat(" ").concat(lastname);
+//        String nickname = wd.findElement(By.name("nickname")).getAttribute("value");
+//        String home = "H: " + wd.findElement(By.name("home")).getAttribute("value");
+//        String mobile = "M: " + wd.findElement(By.name("mobile")).getAttribute("value");
+//        String work = "W: " + wd.findElement(By.name("work")).getAttribute("value").concat("\n");
+//        String address = wd.findElement(By.cssSelector("textarea[name='address']")).getAttribute("value").concat("\n");
+//        String email1 = wd.findElement(By.cssSelector("input[name='email']")).getAttribute("value");
+//        String email2 = wd.findElement(By.cssSelector("input[name='email2']")).getAttribute("value");
+//        String email3 = wd.findElement(By.cssSelector("input[name='email3']")).getAttribute("value");
+//        wd.navigate().back();
+//        initViewContactDetailsById(contact.getId());
+//        String domain1 = wd.findElement(By.xpath("//div[@id='content']//a[2]")).getText();
+//        String domain2 = wd.findElement(By.xpath("//div[@id='content']//a[4]")).getText();
+//        String domain3 = wd.findElement(By.xpath("//div[@id='content']//a[6]")).getText();
+//        email1 = email1.concat(" (").concat(domain1).concat(")");
+//        email2 = email2.concat(" (").concat(domain2).concat(")");
+//        email3 = email3.concat(" (").concat(domain3).concat(")");
+//        wd.navigate().back();
+//        return new ContactData().withId(contact.getId()).withFio(fio).withNickname(nickname).withAddress(address).
+//                withEmail(email1).withEmail2(email2).withEmail3(email3).withHomePhone(home).withMobilePhone(mobile).
+//                withWorkPhone(work);
+//    }
+    //.withFio(fio)
     public ContactData infoFIOFromEditForm(ContactData contact) {
         initContactModificationById(contact.getId());
         String firstname = wd.findElement(By.name("firstname")).getAttribute("value");
@@ -170,11 +198,12 @@ public class ContactHelper extends HelperBase {
         email2 = email2.concat(" (").concat(domain2).concat(")");
         email3 = email3.concat(" (").concat(domain3).concat(")");
         wd.navigate().back();
-        return new ContactData().withId(contact.getId()).withFio(fio).withNickname(nickname).withAddress(address).
+        return new ContactData().withId(contact.getId())
+                .withFio(fio).withNickname(nickname)
+                .withAddress(address).
                 withEmail(email1).withEmail2(email2).withEmail3(email3).withHomePhone(home).withMobilePhone(mobile).
                 withWorkPhone(work);
     }
-    //.withFio(fio)
 
     public ContactData infoFromEditForm(ContactData contact) {
         initContactModificationById(contact.getId());
@@ -190,8 +219,10 @@ public class ContactHelper extends HelperBase {
         String email2 = wd.findElement(By.cssSelector("input[name='email2']")).getAttribute("value");
         String email3 = wd.findElement(By.cssSelector("input[name='email3']")).getAttribute("value");
         wd.navigate().back();
-        return new ContactData().withId(contact.getId()).withFirstname(firstname).withMiddlename(middlename).withLastname(lastname).
-                withNickname(nickname).withAddress(address).withEmail(email1).withEmail2(email2).withEmail3(email3).
+        return new ContactData().withId(contact.getId()).withFirstname(firstname).withMiddlename(middlename)
+                .withLastname(lastname).
+                withNickname(nickname).withAddress(address).withEmail(email1)
+                .withEmail2(email2).withEmail3(email3).
                 withHomePhone(home).withMobilePhone(mobile).withWorkPhone(work);
     }
 
@@ -201,9 +232,7 @@ public class ContactHelper extends HelperBase {
 
     public ContactData infoFromDetailsForm(ContactData contact) {
         initViewContactDetailsById(contact.getId());
-        String allData = wd.findElement(By.xpath(".//*[@id='content']/form[2]")).getText();
-        //.//*[@id='content']/form[2]
-        ////div[@id='content']
+        String allData = wd.findElement(By.xpath("//*[@id='content']")).getText();
         wd.navigate().back();
         return new ContactData().withId(contact.getId()).withAllData(allData);
     }
