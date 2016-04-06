@@ -21,7 +21,7 @@ public class ContactCreateTests extends TestBase {
 
 
     @DataProvider
-    public Iterator<Object[]> validContacts() throws IOException {
+    public Iterator<Object[]> validContactsXml() throws IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/contacts.xml"))) {
             String xml = "";
             String line = reader.readLine();
@@ -36,7 +36,7 @@ public class ContactCreateTests extends TestBase {
         }
     }
 
-    @Test(dataProvider = "validContacts")
+    @Test(dataProvider = "validContactsXml")
     public void testContactCreation(ContactData contact) {
         app.goTo().homePage();
         Contacts before = app.contact().all();
