@@ -1,0 +1,35 @@
+[
+  {
+    "id": 2147483647,
+    "firstname": "Firstname 0",
+    "middlename": "Middlename 0",
+    "lastname": "Lastname 0",
+    "homephone": "5432",
+    "workphone": "23654",
+    "mobilephone": "54658",
+    "address": "Address 0",
+    "email": "email 0"
+  },
+  {
+    "id": 2147483647,
+    "firstname": "Firstname 1",
+    "middlename": "Middlename 1",
+    "lastname": "Lastname 1",
+    "homephone": "5432",
+    "workphone": "23654",
+    "mobilephone": "54658",
+    "address": "Address 1",
+    "email": "email 1"
+  },
+  {
+    "id": 2147483647,
+    "firstname": "Firstname 2",
+    "middlename": "Middlename 2",
+    "lastname": "Lastname 2",
+    "homephone": "5432",
+    "workphone": "23654",
+    "mobilephone": "54658",
+    "address": "Address 2",
+    "email": "email 2"
+  }
+]
