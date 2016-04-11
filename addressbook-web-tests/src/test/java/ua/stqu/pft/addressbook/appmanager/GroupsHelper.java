@@ -99,6 +99,4 @@ public class GroupsHelper extends HelperBase {
         }
         return new Groups(groupCache);
     }
-
-
 }

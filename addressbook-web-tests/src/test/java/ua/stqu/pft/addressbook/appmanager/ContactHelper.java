@@ -3,6 +3,8 @@ package ua.stqu.pft.addressbook.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import ua.stqu.pft.addressbook.model.ContactData;
 import ua.stqu.pft.addressbook.model.Contacts;
 
@@ -22,22 +24,31 @@ public class ContactHelper extends HelperBase {
         click(By.name("submit"));
     }
 
-    public void fillContactsFields(ContactData contactData) {
+    public void fillContactsFields(ContactData contactData, boolean creation) {
         type(By.name("firstname"), contactData.getFirstname());
-        type(By.name("middlename"), contactData.getMiddlename());
+        //type(By.name("middlename"), contactData.getMiddlename());
         type(By.name("lastname"), contactData.getLastname());
-        type(By.name("nickname"), contactData.getNickname());
-        type(By.name("company"), contactData.getCompany());
-        attach(By.name("photo"), contactData.getPhoto());
-        type(By.name("title"), contactData.getTitle());
+        //type(By.name("nickname"), contactData.getNickname());
+        //type(By.name("company"), contactData.getCompany());
+        //attach(By.name("photo"), contactData.getPhoto());
+        //type(By.name("title"), contactData.getTitle());
         type(By.name("address"), contactData.getAddress());
         type(By.name("home"), contactData.getHomePhone());
         type(By.name("mobile"), contactData.getMobilePhone());
         type(By.name("work"), contactData.getWorkPhone());
-        type(By.name("fax"), contactData.getFax());
-        type(By.name("email"), contactData.getEmail());
-
+        //type(By.name("fax"), contactData.getFax());
+        //type(By.name("email"), contactData.getEmail());
+        if (creation) {
+            if (contactData.getGroups().size() > 0) {
+                Assert.assertTrue(contactData.getGroups().size() == 1);
+                new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroups().iterator().next().getName());
+            }
+        } else {
+            Assert.assertFalse(isElementPresent(By.name("new_group")));
+        }
     }
+
+
 
 
     public void initContactModification(int contacts_size) {
@@ -76,7 +87,7 @@ public class ContactHelper extends HelperBase {
 
     public void create(ContactData contact) {
         initContactCreation();
-        fillContactsFields(contact);
+        fillContactsFields(contact, true);
         submitContactCreation();
         contactCache = null;
         returnToHomePage();
@@ -85,7 +96,7 @@ public class ContactHelper extends HelperBase {
     public void modify(Set<ContactData> before, ContactData contact) {
         selectContactById(contact.getId());
         initContactModification(before.size() + 1);
-        fillContactsFields(contact);
+        fillContactsFields(contact, true);
         initContactModify();
         contactCache = null;
         returnToHomePage();
