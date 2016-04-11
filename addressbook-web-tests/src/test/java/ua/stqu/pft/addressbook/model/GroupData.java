@@ -16,17 +16,17 @@ import javax.persistence.Table;
 public class GroupData {
     @XStreamOmitField
     @Id
-    @Column(name = "grpup_id")
+    @Column(name = "group_id")
     private int id = Integer.MAX_VALUE;
     @Expose
-    @Column(name = "grpup_name")
+    @Column(name = "group_name")
     private String name;
     @Expose
-    @Column(name = "grpup_header")
+    @Column(name = "group_header")
     @Type(type = "text")
     private String header;
     @Expose
-    @Column(name = "grpup_footer")
+    @Column(name = "group_footer")
     @Type(type = "text")
     private String footer;
 
