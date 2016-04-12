@@ -65,8 +65,8 @@ public class ContactData {
     private String allData;
     @Transient
     private String fio;
-    @Transient
-    private String group;
+//    @Transient
+//    private String group;
     @Column(name = "photo")
     @Type(type = "text")
     private String photo;
@@ -75,6 +75,10 @@ public class ContactData {
     @JoinTable(name = "address_in_groups",
             joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "group_id"))
     private Set<GroupData> groups = new HashSet<GroupData>();
+
+    public Groups getGroups() {
+        return new Groups(groups);
+    }
 
     public File getPhoto() {
         return new File(photo);
@@ -228,14 +232,14 @@ public class ContactData {
         return email;
     }
 
-    public String getGroup() {
-        return group;
-    }
-
-    public ContactData withGroup(String group) {
-        this.group = group;
-        return this;
-    }
+//    public String getGroup() {
+//        return group;
+//    }
+//
+//    public ContactData withGroup(String group) {
+//        this.group = group;
+//        return this;
+//    }
 
     public String getAllData() {
         return allData;
@@ -295,6 +299,10 @@ public class ContactData {
         groups.add(group);
         return this;
     }
+    public ContactData outOfGroup(GroupData group) {
+        groups.remove(group);
+        return this;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -323,9 +331,5 @@ public class ContactData {
                 "firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
                 '}';
-    }
-
-    public Groups getGroups() {
-        return new Groups(groups);
     }
 }

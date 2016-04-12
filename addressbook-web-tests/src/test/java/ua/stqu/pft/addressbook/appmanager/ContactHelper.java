@@ -48,9 +48,6 @@ public class ContactHelper extends HelperBase {
         }
     }
 
-
-
-
     public void initContactModification(int contacts_size) {
         click(By.xpath("//*[@id='maintable']/tbody/tr[" + contacts_size + "]/td[8]/a"));
     }
@@ -250,5 +247,24 @@ public class ContactHelper extends HelperBase {
 
     private void initViewContactDetailsById(int id) {
         wd.findElement(By.cssSelector(String.format("a[href='view.php?id=%s']", id))).click();
+    }
+
+    public void selectGroupForAdding(String group) {
+        new Select(wd.findElement(By.name("to_group")))
+                .selectByVisibleText(group);
+    }
+    public void addToGroup() {
+        click(By.name("add"));
+    }
+
+    public void selectGroupWithContacts(String group) {
+        new Select(wd.findElement(By.xpath(".//*[@id='right']/*[@name='group']")))
+                .selectByVisibleText(group);
+    }
+
+    public void checkSelectedGroupFilterApplied() {
+        if (isElementPresent(By.name("remove"))) {
+            return;
+        }
     }
 }
