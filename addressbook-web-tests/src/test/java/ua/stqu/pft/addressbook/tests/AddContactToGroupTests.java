@@ -47,6 +47,5 @@ public class AddContactToGroupTests extends TestBase {
                 .filter(c->c.getId() == selectedContact.getId()).findFirst().get();
         assertThat(app.contact().count(), equalTo(contacts.size()));
         assertThat(selectedContact.getGroups(), equalTo(dbContact.getGroups()));
-
     }
 }

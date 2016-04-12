@@ -102,6 +102,4 @@ public class GroupData {
         result = 31 * result + (footer != null ? footer.hashCode() : 0);
         return result;
     }
-
-
 }
