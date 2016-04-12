@@ -32,6 +32,5 @@ public class DeleteContactFromGroup extends TestBase {
                 .filter(c->c.getId() == selectedContact.getId()).findFirst().get(); //тут падает =(
         assertThat(app.contact().count(), equalTo(contacts.size()));
         assertThat(selectedContact.getGroups(), equalTo(dbContact.getGroups()));
-
     }
 }
