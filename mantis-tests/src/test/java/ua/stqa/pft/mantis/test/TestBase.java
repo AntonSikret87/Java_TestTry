@@ -12,7 +12,7 @@ import ua.stqa.pft.mantis.appmanager.ApplicationManager;
 public class TestBase {
 
     protected static final ApplicationManager app =
-            new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+            new ApplicationManager(System.getProperty("browser", BrowserType.FIREFOX));
     //  new ApplicationManager(BrowserType.CHROME)
 
     @BeforeSuite
