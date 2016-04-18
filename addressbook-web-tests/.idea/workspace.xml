@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cc5cf2c-9b46-4430-81c6-3c66d15fa1f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/build.gradle" afterPath="$PROJECT_DIR$/../mantis-tests/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/mantis-tests.iml" afterPath="$PROJECT_DIR$/../mantis-tests/mantis-tests.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/ApplicationManager.java" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/ApplicationManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/RegistrationHelper.java" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/RegistrationHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/MailHelper.java" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/MailHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/TestBase.java" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/TestBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" />
     </list>
     <ignored path="addressbook-web-tests.iws" />
@@ -64,7 +64,10 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="false" />
+                <element signature="e#1271#1272#0" expanded="false" />
+                <element signature="e#1316#1317#0" expanded="false" />
+                <element signature="e#1366#1367#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,9 +88,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,9 +98,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="30" column="82" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,7 +109,8 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#527#528#0" expanded="false" />
+                <element signature="e#574#575#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -121,9 +121,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="23" column="76" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,9 +131,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,12 +149,10 @@
       <file leaf-file-name="MailHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/MailHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46173468">
+            <state vertical-scroll-proportion="0.48056537">
               <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2144#2145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,11 +164,10 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="false" />
+                <element signature="e#521#522#0" expanded="false" />
+                <element signature="e#591#592#0" expanded="false" />
+                <element signature="e#624#625#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -521,7 +514,7 @@
         <entry key="D:/p/Java_TestTry/sandbox" value="1456349670400" />
         <entry key="$PROJECT_DIR$/../../Java_TestTry-master/addressbook-web-tests" value="1459051372000" />
         <entry key="$PROJECT_DIR$" value="1460454693065" />
-        <entry key="$PROJECT_DIR$/../mantis-tests" value="1460578350802" />
+        <entry key="$PROJECT_DIR$/../mantis-tests" value="1460747219838" />
         <entry key="$PROJECT_DIR$/../../TESTTTTT" value="1457010716539" />
         <entry key="E:/TESTTTTT" value="1457010716539" />
         <entry key="F:/11111111111111" value="1458458718000" />
@@ -699,6 +692,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.4/5e984db9554728564d58e90da5d90eff8ae8cf2d/commons-net-3.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.subethamail/subethasmtp/3.1.7/41381242daa11113c32da5b25d001bfdf4df53fb/subethasmtp-3.1.7.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.lanwen.verbalregex/java-verbal-expressions/1.4/c33aff9dfa775b202f21ef03b4579ad4ffe3a79a/java-verbal-expressions-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.48/bfcb96281ea3b59d626704f74bc6d625ff51cbce/jcommander-1.48.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.beanshell/bsh/2.0b4/a05f0a0feefa8d8467ac80e16e7de071489f0d9c/bsh-2.0b4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/2.52.0/fe32be8d32001398689d17544241fbb879f5705c/selenium-chrome-driver-2.52.0.jar" />
@@ -712,8 +706,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-leg-rc/2.52.0/acdecc78f7b03a59097a0ff5c39dc61c02002278/selenium-leg-rc-2.52.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.4/b907ef0a02ff6e809392b1e7149198497fcc8e49/mail-1.4.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1.1/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.1/6f3b8a24bf970f17289b234284c94f43eb42f0e4/slf4j-api-1.6.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/7873092d39ef741575ca91378a6a21c388363ac8/logback-core-1.1.7.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/2.52.0/a4040ffce1a58f6edd5a704d84d6432cbcbaaede/selenium-remote-driver-2.52.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/8dfb9facd0830a27b1b5f29f84593f0aeee7773b/commons-exec-1.3.jar" />
@@ -744,6 +738,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.2.12.v20150709/c02e9e303d231a589e0c8866c1ee89bcdeb40a55/jetty-io-9.2.12.v20150709.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.2.12.v20150709/97219331c7ec90b2964b3a50d86008e1f16f5638/websocket-common-9.2.12.v20150709.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.2.12.v20150709/6bb55e8ef1a385e40f144a240492915b89914cfb/websocket-api-9.2.12.v20150709.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.20/867d63093eff0a0cb527bf13d397d850af3dcae3/slf4j-api-1.7.20.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.3/e876a79d561e5c6207b78d347e198c8c4531a5e5/httpcore-4.4.3.jar" />
                           </list>
                         </option>
@@ -894,10 +889,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -924,7 +919,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1071,7 +1066,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1592,32 +1587,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31260228" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31908396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18854962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61702126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31260228" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61702126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1654,7 +1649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1697,7 +1691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1705,7 +1698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1720,7 +1712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1728,7 +1719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.384615">
           <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1743,7 +1733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1821,10 +1810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-          <folding>
-            <element signature="e#2072#2073#0" expanded="false" />
-            <element signature="e#2111#2112#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1916,7 +1901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1924,7 +1908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1932,7 +1915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1940,7 +1922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1948,9 +1929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="679" column="0" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
-          <folding>
-            <element signature="e#26929#26942#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1958,9 +1936,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1984,9 +1960,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="82" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1995,7 +1969,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2004,9 +1979,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="76" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2015,7 +1988,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="false" />
+            <element signature="e#1271#1272#0" expanded="false" />
+            <element signature="e#1316#1317#0" expanded="false" />
+            <element signature="e#1366#1367#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2024,9 +2000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2035,23 +2009,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/MailHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46173468">
+        <state vertical-scroll-proportion="0.48056537">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
           </folding>
         </state>
       </provider>
