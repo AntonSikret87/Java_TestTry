@@ -60,7 +60,7 @@ public class MailHelper {
     }
 
     public void start() {
-      //  wiser.setPort(1026);
+        wiser.setPort(1026);
         wiser.start();
     }
     //$g_smtp_port = 1026;
