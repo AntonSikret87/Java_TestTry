@@ -2,12 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cc5cf2c-9b46-4430-81c6-3c66d15fa1f8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__com_beust_jcommander_1_48.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__io_netty_netty_3_5_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__net_sourceforge_cssparser_cssparser_0_9_16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_2_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_beanshell_bsh_2_0b4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_api_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_client_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_common_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_htmlunit_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_leg_rc_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_testng_testng_6_9_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_w3c_css_sac_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__org_webbitserver_webbit_0_4_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__xalan_serializer_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__xalan_xalan_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__xerces_xercesImpl_2_11_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sandbox/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/ApplicationManager.java" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/ApplicationManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/MailHelper.java" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/MailHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sandbox/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../sandbox/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sandbox/.idea/misc.xml" afterPath="$PROJECT_DIR$/../sandbox/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sandbox/.idea/modules.xml" afterPath="$PROJECT_DIR$/../sandbox/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sandbox/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sandbox/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sandbox/sandbox.iml" afterPath="$PROJECT_DIR$/../sandbox/sandbox.iml" />
     </list>
     <ignored path="addressbook-web-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,6 +65,8 @@
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/../mantis-tests/.gradle/" />
     <ignored path="$PROJECT_DIR$/../mantis-tests/build/" />
+    <ignored path="$PROJECT_DIR$/../soap-sample/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../soap-sample/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +84,12 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/../mantis-tests">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../sandbox">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../soap-sample">
       <ProjectState />
     </projectState>
   </component>
@@ -61,17 +119,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1264#1265#0" expanded="false" />
+                <element signature="e#1308#1309#0" expanded="false" />
+                <element signature="e#1353#1354#0" expanded="false" />
+                <element signature="e#1403#1404#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +136,8 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2152#2153#0" expanded="false" />
+                <element signature="e#2180#2181#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,69 +149,89 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
               <folding>
+                <element signature="e#3290#3291#0" expanded="false" />
+                <element signature="e#3319#3320#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sandbox/src/main/java/ua/stqa/java_testtry/sandbox/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#158#159#0" expanded="false" />
+                <element signature="e#184#185#0" expanded="false" />
+                <element signature="e#213#214#0" expanded="false" />
+                <element signature="e#251#252#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sandbox/src/test/java/ua/stqa/java_testtry/sandbox/SquareTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../soap-sample/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.481482">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeoIpServiceTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../soap-sample/src/test/java/ua/stqa/pft/soap/GeoIpServiceTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66019416">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties">
+      <file leaf-file-name="geoipservice.wsdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../soap-sample/src/main/resources/geoipservice.wsdl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/RegistrationHelper.java">
+      <file leaf-file-name="LoginTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/AdminHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mantis-tests/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config_inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33039647">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -205,6 +280,38 @@
               <ExternalProjectPojo>
                 <option name="name" value="mantis-tests" />
                 <option name="path" value="$PROJECT_DIR$/../mantis-tests" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="sandbox" />
+              <option name="path" value="$PROJECT_DIR$/../sandbox" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="sandbox" />
+                <option name="path" value="$PROJECT_DIR$/../sandbox" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="soap-sample" />
+              <option name="path" value="$PROJECT_DIR$/../soap-sample" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="soap-sample" />
+                <option name="path" value="$PROJECT_DIR$/../soap-sample" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -493,6 +600,323 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../sandbox">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'sandbox'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="installApp" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'sandbox'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../sandbox" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../soap-sample">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'soap-sample'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'soap-sample'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Delete java source code generated from WSDL and XSD files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="deleteGeneratedSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'soap-sample'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'soap-sample'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'soap-sample'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'soap-sample'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'soap-sample'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'soap-sample'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generate java source code from WSDL files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../soap-sample" />
+                <option name="name" value="wsdl2java" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
@@ -504,6 +928,8 @@
         <entry key="$PROJECT_DIR$/../../Java_TestTry-master/addressbook-web-tests" value="1459051372000" />
         <entry key="$PROJECT_DIR$" value="1460454693065" />
         <entry key="$PROJECT_DIR$/../mantis-tests" value="1460747219838" />
+        <entry key="$PROJECT_DIR$/../sandbox" value="1456690819023" />
+        <entry key="$PROJECT_DIR$/../soap-sample" value="1461092271055" />
         <entry key="$PROJECT_DIR$/../../TESTTTTT" value="1457010716539" />
         <entry key="E:/TESTTTTT" value="1457010716539" />
         <entry key="F:/11111111111111" value="1458458718000" />
@@ -807,6 +1233,192 @@
             </ExternalProjectBuildClasspathPojo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../sandbox">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/../sandbox">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/6feb3e964aeb7097aff30c372aac3ec0f8d87ede/testng-6.9.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.48/bfcb96281ea3b59d626704f74bc6d625ff51cbce/jcommander-1.48.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.beanshell/bsh/2.0b4/a05f0a0feefa8d8467ac80e16e7de071489f0d9c/bsh-2.0b4.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/../sandbox" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="sandbox" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-base-services-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-base-services-groovy-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-cli-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-core-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-docs-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-launcher-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-messaging-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-model-core-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-model-groovy-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-open-api-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-resources-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-tooling-api-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-ui-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-wrapper-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/groovy-all-2.4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-announce-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-antlr-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-build-comparison-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-build-init-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-code-quality-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-dependency-management-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-diagnostics-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-ear-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-ide-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-ide-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-ivy-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-jacoco-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-javascript-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-jetty-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-groovy-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-java-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-jvm-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-scala-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-maven-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-osgi-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-platform-base-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-platform-jvm-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-platform-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-platform-play-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-plugin-development-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-plugin-use-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-plugins-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-publish-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-reporting-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-resources-http-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-resources-s3-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-resources-sftp-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-scala-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-signing-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-sonar-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-test-kit-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-testing-base-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-testing-jvm-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-testing-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-tooling-api-builders-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../sandbox/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/../sandbox/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../soap-sample">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/../soap-sample">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/11af8613a6b909307c7f2f554249c7b176cb50e6/testng-6.9.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/6feb3e964aeb7097aff30c372aac3ec0f8d87ede/testng-6.9.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.48/6deefcf90f144dfca29d4950c665a592ba029d42/jcommander-1.48-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.48/bfcb96281ea3b59d626704f74bc6d625ff51cbce/jcommander-1.48.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.beanshell/bsh/2.0b4/a05f0a0feefa8d8467ac80e16e7de071489f0d9c/bsh-2.0b4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.nils/wsdl2java/0.9/8e0ee126a768c555cdc1b5e54c7b2070de1aefa5/wsdl2java-0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.nils/wsdl2java/0.9/fbcfad625d957ed00ce4cf1b02c5d153c5c389c8/wsdl2java-0.9.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/../soap-sample" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="soap-sample" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-base-services-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-base-services-groovy-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-cli-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-core-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-docs-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-launcher-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-messaging-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-model-core-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-model-groovy-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-open-api-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-resources-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-tooling-api-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-ui-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-wrapper-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/groovy-all-2.4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-announce-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-antlr-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-build-comparison-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-build-init-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-code-quality-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-dependency-management-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-diagnostics-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-ear-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-ide-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-ide-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-ivy-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-jacoco-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-javascript-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-jetty-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-groovy-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-java-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-jvm-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-language-scala-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-maven-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-osgi-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-platform-base-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-platform-jvm-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-platform-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-platform-play-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-plugin-development-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-plugin-use-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-plugins-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-publish-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-reporting-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-resources-http-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-resources-s3-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-resources-sftp-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-scala-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-signing-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-sonar-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-test-kit-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-testing-base-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-testing-jvm-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-testing-native-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/gradle-tooling-api-builders-2.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../soap-sample/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/../soap-sample/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -816,8 +1428,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/generators/GroupDataGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/generators/ContactDataGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/testng-contacts.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/testng-groups.xml" />
@@ -862,11 +1472,13 @@
         <option value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/RegistrationHelper.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/JamesHelper.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/appmanager/MailHelper.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java" />
+        <option value="$PROJECT_DIR$/../soap-sample/build.gradle" />
+        <option value="$PROJECT_DIR$/../soap-sample/src/test/java/ua/stqa/pft/soap/GeoIpServiceTests.java" />
       </list>
     </option>
   </component>
@@ -924,7 +1536,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mantis-tests" />
+              <option name="myItemId" value="soap-sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -934,7 +1546,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mantis-tests" />
+              <option name="myItemId" value="soap-sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -943,6 +1555,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addressbook-web-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addressbook-web-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -956,7 +1612,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mantis-tests" />
+              <option name="myItemId" value="soap-sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -964,7 +1620,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -972,85 +1628,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mantis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mantis-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mantis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mantis-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mantis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appmanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mantis-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="webservicex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1065,90 +1643,24 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../soap-sample/build.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ua.stqa.pft.mantis.appmanager" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.stqa.pft.mantis.appmanager" />
+      <recent name="ua.stqu.pft.mantis.tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaForQA\Java_TestTry\mantis-tests" />
       <recent name="E:\JavaForQA\Java_TestTry\mantis-tests\src\test\java" />
       <recent name="E:\JavaForQA\Java_TestTry\mantis-tests\src\test\resources" />
       <recent name="E:\JavaForQA\Java_TestTry\addressbook-web-tests\src\test\resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ua.stqa.pft.mantis.appmanager" />
-      <recent name="ua.stqu.pft.mantis.tests" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ua.stqa.pft.mantis.appmanager" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration2Version">
-    <configuration default="false" name="LoginTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ua.stqa.pft.mantis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mantis-tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ua.stqa.pft.mantis.test" />
-      <option name="MAIN_CLASS_NAME" value="ua.stqa.pft.mantis.test.LoginTests" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="LoginTests.testLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ua.stqa.pft.mantis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mantis-tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ua.stqa.pft.mantis.test" />
-      <option name="MAIN_CLASS_NAME" value="ua.stqa.pft.mantis.test.LoginTests" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.GeoIpServiceTests.testInvalidIp">
     <configuration default="false" name="RegistrationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1229,6 +1741,72 @@
       <option name="PACKAGE_NAME" value="ua.stqa.pft.mantis.test" />
       <option name="MAIN_CLASS_NAME" value="ua.stqa.pft.mantis.test.RegistrationTests" />
       <option name="METHOD_NAME" value="testRegistration2Version" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="GeoIpServiceTests.testMyIp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ua.stqa.pft.soap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="soap-sample" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ua.stqa.pft.soap" />
+      <option name="MAIN_CLASS_NAME" value="ua.stqa.pft.soap.GeoIpServiceTests" />
+      <option name="METHOD_NAME" value="testMyIp" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="GeoIpServiceTests.testInvalidIp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ua.stqa.pft.soap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="soap-sample" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ua.stqa.pft.soap" />
+      <option name="MAIN_CLASS_NAME" value="ua.stqa.pft.soap.GeoIpServiceTests" />
+      <option name="METHOD_NAME" value="testInvalidIp" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1505,19 +2083,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.LoginTests" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginTests.testLogin" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RegistrationTests" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.RegistrationTests.testRegistration" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.RegistrationTests.testRegistration2Version" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.RegistrationTests" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.RegistrationTests.testRegistration" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.RegistrationTests.testRegistration2Version" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testMyIp" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testInvalidIp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.RegistrationTests.testRegistration2Version" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RegistrationTests.testRegistration" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.RegistrationTests" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.LoginTests" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginTests.testLogin" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testInvalidIp" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testMyIp" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.RegistrationTests.testRegistration2Version" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.RegistrationTests.testRegistration" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.RegistrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -1535,20 +2113,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTests_testRegistration - 2016.04.14 at 00h 23m 28s.xml">
-      <configuration name="RegistrationTests.testRegistration" configurationId="TestNG" />
+    <history-entry file="GeoIpServiceTests_testInvalidIp - 2016.04.19 at 22h 08m 01s.xml">
+      <configuration name="GeoIpServiceTests.testInvalidIp" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_testRegistration - 2016.04.14 at 00h 25m 11s.xml">
-      <configuration name="RegistrationTests.testRegistration" configurationId="TestNG" />
+    <history-entry file="GeoIpServiceTests_testMyIp - 2016.04.19 at 22h 05m 34s.xml">
+      <configuration name="GeoIpServiceTests.testMyIp" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_testRegistration - 2016.04.14 at 00h 28m 28s.xml">
-      <configuration name="RegistrationTests.testRegistration" configurationId="TestNG" />
+    <history-entry file="GeoIpServiceTests_testMyIp - 2016.04.19 at 22h 05m 54s.xml">
+      <configuration name="GeoIpServiceTests.testMyIp" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_testRegistration - 2016.04.14 at 00h 31m 55s.xml">
-      <configuration name="RegistrationTests.testRegistration" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_testRegistration - 2016.04.14 at 00h 33m 53s.xml">
-      <configuration name="RegistrationTests.testRegistration" configurationId="TestNG" />
+    <history-entry file="GeoIpServiceTests_testMyIp - 2016.04.19 at 22h 07m 53s.xml">
+      <configuration name="GeoIpServiceTests.testMyIp" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RegistrationTests_testRegistration - 2016.04.14 at 00h 43m 11s.xml">
       <configuration name="RegistrationTests.testRegistration" configurationId="TestNG" />
@@ -1565,6 +2140,9 @@
     <history-entry file="RegistrationTests_testRegistration2Version - 2016.04.19 at 19h 59m 30s.xml">
       <configuration name="RegistrationTests.testRegistration2Version" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RegistrationTests_testRegistration2Version - 2016.04.19 at 20h 48m 50s.xml">
+      <configuration name="RegistrationTests.testRegistration2Version" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1576,7 +2154,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1586,16 +2164,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5826514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5826514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31467474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18854962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18835099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61702126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.61702126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1617,7 +2195,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../soap-sample/src/test/java/ua/stqa/pft/soap/GeoIpServiceTests.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1626,41 +2212,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/contacts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/generators/ContactDataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/generators/GroupDataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-contacts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng-groups.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1913,14 +2464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1933,7 +2476,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#300#301#0" expanded="false" />
+            <element signature="e#1171#1172#0" expanded="false" />
+            <element signature="e#1258#1259#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1973,7 +2522,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1264#1265#0" expanded="false" />
+            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="e#1353#1354#0" expanded="false" />
+            <element signature="e#1403#1404#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1982,7 +2537,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="false" />
+            <element signature="e#2180#2181#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1992,15 +2558,63 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3290#3291#0" expanded="false" />
+            <element signature="e#3319#3320#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/ua/stqa/pft/mantis/test/RegistrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33039647">
+        <state vertical-scroll-proportion="0.0">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sandbox/src/main/java/ua/stqa/java_testtry/sandbox/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#213#214#0" expanded="false" />
+            <element signature="e#251#252#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sandbox/src/test/java/ua/stqa/java_testtry/sandbox/SquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soap-sample/src/main/resources/geoipservice.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soap-sample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.481482">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soap-sample/src/test/java/ua/stqa/pft/soap/GeoIpServiceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66019416">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2059,7 +2673,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mantis-tests</last-edited>
+          <last-edited>soap-sample</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
