@@ -50,7 +50,7 @@ public class ApplicationManager {
         navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);
         contactHelper = new ContactHelper(wd);
-        sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
+        sessionHelper.login(properties.getProperty("web.adminUsername"), properties.getProperty("web.adminPassword"));
     }
 
 

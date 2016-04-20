@@ -38,7 +38,7 @@ public class AdminHelper extends HelperBase{
     }
 
     public void startResetPassword() {
-        String username = app.getProperty("web.adminLogin");
+        String username = app.getProperty("web.adminUsername");
         String password = app.getProperty("web.adminPassword");
         loginAs(username, password);
         manageUsers();
