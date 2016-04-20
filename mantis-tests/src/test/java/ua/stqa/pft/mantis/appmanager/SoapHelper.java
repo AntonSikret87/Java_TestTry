@@ -64,7 +64,7 @@ public class SoapHelper {
         String password = app.getProperty("web.adminPassword");
         String[] categories = mc.mc_project_get_categories(username, password, BigInteger.valueOf(issue.getProject().getId()));
         IssueData issueData = new IssueData();
-        issueData.setSummary(issue.getSummaru());
+        issueData.setSummary(issue.getSummary());
         issueData.setDescription(issue.getDescription());
         issueData.setProject(new ObjectRef(BigInteger.valueOf(issue.getProject().getId()), issue.getProject().getName()));
         issueData.setCategory(categories[0]);
