@@ -1,12 +1,13 @@
 package ua.stqa.pft.rest;
 
 /**
- * Created by sikretSSD on 22.04.2016.
+ * Created by sikretSSD on 23.04.2016.
  */
 public class Issue {
     private int id;
     private String subject;
-    private String descroption;
+    private String description;
+
 
     public int getId() {
         return id;
@@ -26,12 +27,12 @@ public class Issue {
         return this;
     }
 
-    public String getDescroption() {
-        return descroption;
+    public String getDescription() {
+        return description;
     }
 
-    public Issue withDescroption(String descroption) {
-        this.descroption = descroption;
+    public Issue withDescription(String description) {
+        this.description = description;
         return this;
     }
 
@@ -40,11 +41,11 @@ public class Issue {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Issue issue = (Issue) o;
+        Issue issue11 = (Issue) o;
 
-        if (id != issue.id) return false;
-        if (subject != null ? !subject.equals(issue.subject) : issue.subject != null) return false;
-        return descroption != null ? descroption.equals(issue.descroption) : issue.descroption == null;
+        if (id != issue11.id) return false;
+        if (subject != null ? !subject.equals(issue11.subject) : issue11.subject != null) return false;
+        return description != null ? description.equals(issue11.description) : issue11.description == null;
 
     }
 
@@ -52,7 +53,7 @@ public class Issue {
     public int hashCode() {
         int result = id;
         result = 31 * result + (subject != null ? subject.hashCode() : 0);
-        result = 31 * result + (descroption != null ? descroption.hashCode() : 0);
+        result = 31 * result + (description != null ? description.hashCode() : 0);
         return result;
     }
 }
