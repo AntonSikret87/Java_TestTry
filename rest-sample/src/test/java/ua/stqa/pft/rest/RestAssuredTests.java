@@ -36,8 +36,7 @@ public class RestAssuredTests {
 
     }
 
-    @Test
-    public void testCreateIssueTask22 () throws IOException {
+     public void testCreateIssueTask22 () throws IOException {
 
         skipIfNotFixed(8);
 
