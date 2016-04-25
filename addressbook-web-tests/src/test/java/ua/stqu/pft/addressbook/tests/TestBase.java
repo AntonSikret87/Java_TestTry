@@ -3,6 +3,7 @@ package ua.stqu.pft.addressbook.tests;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -29,10 +30,16 @@ public class TestBase {
 
     protected static final ApplicationManager app =
             new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
-  //  new ApplicationManager(BrowserType.CHROME)
+
+    //  new ApplicationManager(BrowserType.CHROME)
+//    @BeforeSuite
+//    public void setUp() throws Exception {
+//        app.init();
+//    }
     @BeforeSuite
-    public void setUp() throws Exception {
+    public void setUp(ITestContext context) throws Exception {
         app.init();
+        context.setAttribute("app", app);
     }
 
     @AfterSuite(alwaysRun = true)
@@ -41,11 +48,12 @@ public class TestBase {
     }
 
     @BeforeMethod
-    public void logTestStart(Method m, Object[] p){
+    public void logTestStart(Method m, Object[] p) {
         logger.info("Start test " + m.getName() + " with parameters " + Arrays.asList(p));
     }
+
     @AfterMethod(alwaysRun = true)
-    public void logTestStop(Method m){
+    public void logTestStop(Method m) {
         logger.info("Stop test " + m.getName());
     }
 
@@ -58,6 +66,7 @@ public class TestBase {
                     .collect(Collectors.toSet())));
         }
     }
+
     public void verifyContactListInUI() {
         if (Boolean.getBoolean("verifyUI")) {
             Contacts dbContacts = app.db().contacts();

@@ -35,8 +35,8 @@
         <property name="hbm2ddl.auto">validate</property>
 
         <!-- Names the annotated entity class -->
-        <mapping class="ua.stqu.pft.GroupData"/>
-        <mapping class="ua.stqu.pft.ContactData"/>
+        <mapping class="ua.stqu.pft.addressbook.model.GroupData"/>
+        <mapping class="ua.stqu.pft.addressbook.model.ContactData"/>
 
 
     </session-factory>
