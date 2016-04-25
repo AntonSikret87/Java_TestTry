@@ -3,6 +3,7 @@ package ua.stqu.pft.addressbook.tests;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -31,15 +32,15 @@ public class TestBase {
             new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
           //new ApplicationManager(BrowserType.CHROME)
 
-    @BeforeSuite
-    public void setUp() throws Exception {
-        app.init();
-    }
 //    @BeforeSuite
-//    public void setUp(ITestContext context) throws Exception {
+//    public void setUp() throws Exception {
 //        app.init();
-//        context.setAttribute("app", app);
 //    }
+    @BeforeSuite
+    public void setUp(ITestContext context) throws Exception {
+        app.init();
+        context.setAttribute("app", app);
+    }
 
     @AfterSuite(alwaysRun = true)
     public void tearDown() {
