@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cc5cf2c-9b46-4430-81c6-3c66d15fa1f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/tests/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/tests/TestBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/remote.properties" afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" />
     </list>
     <ignored path="addressbook-web-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="remote.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="remote.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/remote.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.087478556">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -139,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26243567">
+            <state vertical-scroll-proportion="0.0">
               <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding />
             </state>
@@ -1946,9 +1946,9 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/local.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/remote.properties" />
         <option value="$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/remote.properties" />
       </list>
     </option>
   </component>
@@ -3114,14 +3114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/remote.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/appmanager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3140,8 +3132,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/stqu/pft/addressbook/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26243567">
+        <state vertical-scroll-proportion="0.0">
           <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/remote.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.087478556">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="15" />
           <folding />
         </state>
       </provider>
