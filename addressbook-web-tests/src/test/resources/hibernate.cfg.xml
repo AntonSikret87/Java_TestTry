@@ -39,6 +39,7 @@
         <mapping class="ua.stqu.pft.addressbook.model.ContactData"/>
 
 
+
     </session-factory>
 
 </hibernate-configuration>

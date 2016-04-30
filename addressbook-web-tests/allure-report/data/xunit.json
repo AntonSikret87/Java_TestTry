@@ -1,0 +1,82 @@
+{
+  "time" : {
+    "start" : 1461785074970,
+    "stop" : 1461785088634,
+    "duration" : 13664
+  },
+  "testSuites" : [ {
+    "uid" : "73f22b7e464a5759",
+    "name" : "Suite1",
+    "title" : "Suite 1",
+    "time" : {
+      "start" : 1461785074970,
+      "stop" : 1461785088634,
+      "duration" : 13664
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e8cca966be660366",
+      "name" : "testGroupCreation[GroupData{id='2147483647', name='test 0'}]",
+      "title" : "Test group creation [GroupData{id='2147483647', name='test 0'}]",
+      "time" : {
+        "start" : 1461785074970,
+        "stop" : 1461785079118,
+        "duration" : 4148
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c886c5a3cd52a6de",
+      "name" : "testGroupCreation[GroupData{id='2147483647', name='test 1'}]",
+      "title" : "Test group creation [GroupData{id='2147483647', name='test 1'}]",
+      "time" : {
+        "start" : 1461785079335,
+        "stop" : 1461785082421,
+        "duration" : 3086
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "80bcaf07c22f8754",
+      "name" : "testGroupCreation[GroupData{id='2147483647', name='test 2'}]",
+      "title" : "Test group creation [GroupData{id='2147483647', name='test 2'}]",
+      "time" : {
+        "start" : 1461785082434,
+        "stop" : 1461785084682,
+        "duration" : 2248
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6dc26875a7d02e03",
+      "name" : "testGroupModofocation",
+      "title" : "Test group modofocation",
+      "time" : {
+        "start" : 1461785084704,
+        "stop" : 1461785087204,
+        "duration" : 2500
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d88454a7e0c87f9d",
+      "name" : "testGroupDeletion",
+      "title" : "Test group deletion",
+      "time" : {
+        "start" : 1461785087228,
+        "stop" : 1461785088634,
+        "duration" : 1406
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
